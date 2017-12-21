@@ -1,7 +1,6 @@
 package com.sy.dubbossm.POJO;
 
 import com.alibaba.fastjson.annotation.JSONField;
-import org.apache.ibatis.type.Alias;
 
 import java.io.Serializable;
 import java.sql.Timestamp;
@@ -9,7 +8,7 @@ import java.sql.Timestamp;
 /**
  * Created by sy on 2017/12/19.
  */
-@Alias("User")
+
 public class User extends BasePOJO implements Serializable {
 
     private Long id;

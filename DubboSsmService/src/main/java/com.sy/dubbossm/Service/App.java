@@ -1,6 +1,6 @@
 package com.sy.dubbossm.Service;
 
-import com.sy.dubbossm.Utils.L;
+import com.sy.dubbossm.Service.Utils.L;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.IOException;

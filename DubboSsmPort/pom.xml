@@ -7,16 +7,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>DubboSsmPort</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>DubboSsmPort Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.31</version>
         </dependency>
+
+
     </dependencies>
     <build>
         <finalName>DubboSsmPort</finalName>

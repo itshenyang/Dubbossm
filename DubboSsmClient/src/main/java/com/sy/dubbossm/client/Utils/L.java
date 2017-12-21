@@ -1,4 +1,4 @@
-package com.sy.dubbossm.Utils;
+package com.sy.dubbossm.client.Utils;
 
 import org.apache.log4j.Logger;
 

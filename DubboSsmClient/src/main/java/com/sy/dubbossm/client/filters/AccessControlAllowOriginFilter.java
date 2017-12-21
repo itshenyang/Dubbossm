@@ -1,6 +1,6 @@
 package com.sy.dubbossm.client.filters;
 
-import com.sy.dubbossm.Utils.L;
+import com.sy.dubbossm.client.Utils.L;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
