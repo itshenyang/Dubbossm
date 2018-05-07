@@ -20,7 +20,7 @@ public class UserServiceImp implements UserService {
     public User loginUser(User user) {
         //return userDAO.loginUser(user);
         user.setName("还有谁");
-        user.setPassword("123456");
+        user.setPassword("9000");
         return user;
     }
 
