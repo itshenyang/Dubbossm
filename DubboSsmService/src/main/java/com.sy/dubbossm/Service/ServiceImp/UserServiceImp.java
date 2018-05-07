@@ -18,7 +18,10 @@ public class UserServiceImp implements UserService {
     UserDAO userDAO;
 
     public User loginUser(User user) {
-        return userDAO.loginUser(user);
+        //return userDAO.loginUser(user);
+        user.setName("还有谁");
+        user.setPassword("123456");
+        return user;
     }
 
     public Boolean insertUser(User user) {
